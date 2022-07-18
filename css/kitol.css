@@ -1,0 +1,1316 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Reenie+Beanie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.top {
+    width: 100%;
+    height: 1350px;
+    background: url(../images/house-bg2.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    /* font-family: 'Reenie Beanie', cursive; */
+    font-size: 40px;
+    width: 150px;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.lang {
+    position: absolute;
+    top: 8px;
+    right:2%;
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 3px;
+    background-color: #555;
+    
+}
+
+.lang a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header p {
+    width: 70%;
+    margin: 0 auto; 
+    border-bottom: 1px solid #555;
+    font-size: 10px;
+    text-align: center;
+}
+
+.section-1 {
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
+.s1-box1 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 8%;
+    top: 83%;
+}
+
+.s1-box2 {
+    position: absolute;
+    left: 40%;
+    top:43%;
+    width: 180px;
+    height: 150px;
+    border-radius: 50px;
+    background: url(../images/post.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.s1-box3 {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 18%;
+    left: 12%;
+    border-radius:100px;
+    border: 2px dashed rgb(255, 255, 255);
+    background-color: rgba(233, 232, 232, 0.418);
+    padding: 45px 15px 45px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.s1-box3 p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-2 {
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
+.s2-box1 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 15%;
+    top: 83%;
+}
+
+.s2-box2 {
+    position: absolute;
+    left: 5%;
+    top:40%;
+    width: 200px;
+    height: 150px;
+    border-radius: 50px;
+    background: url(../images/dining2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.s2-box3 {
+    position: absolute;
+    left: 40%;
+    top:10%;
+    width: 180px;
+    height: 150px;
+    border-radius: 50px;
+    background: url(../images/furniture.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.s2-box4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 5%;
+    left: 12%;
+    border-radius:60px;
+    background:url(../images/light1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-3 {
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
+.s3-box1 {
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 8%;
+    top:83%
+   
+}
+
+.s3-box2 {
+    position: absolute;
+    left: 45%;
+    top:30%;
+    width: 150px;
+    height: 200px;
+    border-radius: 50px;
+    background: url(../images/dressing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.s3-box3 {
+    position: absolute;
+    left: 12%;
+    top:10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background: url(../images/window1.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.s3-box4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 3%;
+    left: 65%;
+    border-radius:60px;
+    background:url(../images/light2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-4 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.s4-box1 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 15%;
+    top: 73%;
+}
+
+.s4-box2 {
+    position: absolute;
+    left: 5%;
+    top:39%;
+    width: 200px;
+    height: 150px;
+    border-radius: 50px;
+    background: url(../images/vintage-house.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.s4-box3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 10%;
+    left: 45%;
+    border-radius:100px;
+    border: 2px dashed rgb(255, 255, 255);
+    background-color: rgba(233, 232, 232, 0.418);
+    padding: 45px 15px 45px 20px;
+}
+
+.s4-box3 p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.button-1 {
+    position: absolute;
+    left: 50%;
+    top:93%;
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #555;
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* .button-1:hover {
+    background-color: rgba(77, 76, 76, 0.342);
+} */
+
+.button-1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-5 {
+    position: relative;
+    width: 100%;
+    height: 720px;
+}
+
+.s5-box1 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 15%;
+    top:40%;
+   
+}
+
+.s5-box2 {
+    position: absolute;
+    top:10%;
+    left: 45%;
+    width: 150px;
+    height: 200px;
+    border-radius: 50px;
+    background: url(../images/ivory-house2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.s5-box3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 1%;
+    left: 9%;
+    border-radius:100px;
+    border: 2px dashed rgb(255, 255, 255);
+    background-color: rgba(233, 232, 232, 0.418);
+    padding: 45px 15px 45px 20px;
+}
+
+.s5-box3 p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.s5-box4 {
+    position: absolute;
+    left: 50%;
+    top:72%;
+    width: 120px;
+    height: 180px;
+    border-radius: 50px;
+    background: url(../images/niche.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.s5-box5 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 68%;
+    left: 16%;
+    border-radius:60px;
+    background:url(../images/poach.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.button-2 {
+    position: absolute;
+    left:10%;
+    top:54%;
+    width: 120px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #555;
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* .button-2:hover {
+    background-color: rgba(77, 76, 76, 0.342);
+} */
+
+.button-2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg {
+    width: 100%;
+    height: 100px;
+    background: url(../images/wall.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutUs {
+    color: white;
+    width: 210px;
+    margin: 0px auto ;
+    list-style: none;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
+/* Vintage House */
+
+ .top2 h1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    /* font-family: 'Reenie Beanie', cursive; */
+    font-size: 40px;
+    width: 250px;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.V-section-1 {
+    width: 100%;
+    height: 300px;
+    margin-top: 1em;
+}
+
+.bg2 {
+    width: 100%;
+    height: 300px;
+    background: url(../images/house1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    top:5px;
+    left: 1%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/bird-logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.V-section-2 {
+    width: 100%;
+    height: 4000px;
+    margin-top: 1em;
+    position: relative;
+}
+
+.v-s2-box1 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 6%;
+    top: 0.2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.v-s2-box2 {
+    position: absolute;
+    left: 40%;
+    top:1%;
+    width: 200px;
+    height: 150px;
+    background: url(../images2/kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box3 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top: 5%;
+    font-size: 10px;
+}
+
+.v-s2-box4 {
+    position: absolute;
+    left: 10%;
+    top:5.8%;
+    width: 112.5px;
+    height: 150px;
+    background: url(../images2/clock.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box5 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 15%;
+    top:9.8%;
+    font-size: 10px;
+}
+
+.v-s2-box6 {
+    position: absolute;
+    left: 60%;
+    top:8.5%;
+    width: 120px;
+    height:90px;
+    background: url(../images2/furniture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box7 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 65%;
+    top:11%;
+    font-size: 10px;
+}
+
+.v-s2-box8 {
+    position: absolute;
+    left: 10%;
+    top:12%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/dining.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box9 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:16%;
+    font-size: 10px;
+}
+
+.v-s2-box10 {
+    position: absolute;
+    left: 60%;
+    top:17%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images2/staire.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box11 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 50%;
+    top:21%;
+    font-size: 10px;
+}
+
+.v-s2-box12 {
+    position: absolute;
+    left: 25%;
+    top:22%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/void.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box13 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 20%;
+    top:26%;
+    font-size: 10px;
+}
+
+.v-s2-box14 {
+    position: absolute;
+    left: 12%;
+    top:27%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images2/niche.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box15 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 9%;
+    top:31%;
+    font-size: 10px;
+}
+
+.v-s2-box16 {
+    position: absolute;
+    left: 60%;
+    top:30%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images2/light.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box17 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 58%;
+    top:34%;
+    font-size: 10px;
+}
+
+.v-s2-box18 {
+    position: absolute;
+    left: 20%;
+    top:35%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/entrance.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box19 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 35%;
+    top:39%;
+    font-size: 10px;
+}
+
+.v-s2-box20 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 55%;
+    top:40%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.v-s2-box21 {
+    position: absolute;
+    left: 35%;
+    top:41%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/sasakitei-living.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box22 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:45%;
+    font-size: 10px;
+}
+
+.v-s2-box23 {
+    position: absolute;
+    left: 15%;
+    top:46%;
+    width: 150px;
+    height:200px;
+    background: url(../images2/sasakitei-kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box24 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:51.3%;
+    font-size: 10px;
+}
+
+.v-s2-box25 {
+    position: absolute;
+    left: 35%;
+    top:52.5%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/sasakitei-kitchen2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box26 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:56.5%;
+    font-size: 10px;
+}
+
+.v-s2-box27 {
+    position: absolute;
+    left: 20%;
+    top:57.5%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images2/light2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box28 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:61.5%;
+    font-size: 10px;
+}
+
+.v-s2-box29 {
+    position: absolute;
+    left: 35%;
+    top:63%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/sasakitei-dining.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box30 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:67%;
+    font-size: 10px;
+}
+
+.v-s2-box31 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 10%;
+    top:68%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.v-s2-box32 {
+    position: absolute;
+    left: 15%;
+    top:69.5%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/shinozakitei.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box33 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:73.5%;
+    font-size: 10px;
+}
+
+.v-s2-box34 {
+    position: absolute;
+    left: 50%;
+    top:74.5%;
+    width: 150px;
+    height:200px;
+    background: url(../images2/shinozakitei-poach.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box35 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 35%;
+    top:79.7%;
+    font-size: 10px;
+}
+
+.v-s2-box36 {
+    position: absolute;
+    left: 20%;
+    top:81.5%;
+    width: 200px;
+    height:150px;
+    background: url(../images2/shinozakitei-living.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box37 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:85.5%;
+    font-size: 10px;
+}
+
+.v-s2-box38 {
+    position: absolute;
+    left: 10%;
+    top:87%;
+    width: 150px;
+    height:200px;
+    background: url(../images2/shinozakitei-kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box39 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 10%;
+    top:92.3%;
+    font-size: 10px;
+}
+
+.v-s2-box40 {
+    position: absolute;
+    left: 60%;
+    top:90%;
+    width:112.5px;
+    height:150px;
+    background: url(../images2/furniture2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box41 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 60%;
+    top:94%;
+    font-size: 10px;
+}
+
+.v-s2-box42 {
+    position: absolute;
+    left: 25%;
+    top:95%;
+    width:200px;
+    height:150px;
+    background: url(../images2/hukusakitei-living.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.v-s2-box43 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 35%;
+    top:99%;
+    font-size: 10px;
+}
+
+/* Ivory House */
+
+.top3 h1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    /* font-family: 'Reenie Beanie', cursive; */
+    font-size: 40px;
+    width: 250px;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.I-section-1 {
+    width: 100%;
+    height: 400px;
+    margin-top: 1em;
+}
+
+.bg3 {
+    width: 100%;
+    height: 400px;
+    background: url(../images/house2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.I-section-2 {
+    width: 100%;
+    height: 4000px;
+    margin-top: 1em;
+    position: relative;
+}
+
+.i-s2-box1 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 6%;
+    top: 0.2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i-s2-box2 {
+    position: absolute;
+    left: 40%;
+    top:1%;
+    width: 200px;
+    height: 150px;
+    background: url(../images3/kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box3 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top: 5%;
+    font-size: 10px;
+}
+
+.i-s2-box4 {
+    position: absolute;
+    left: 10%;
+    top:5.8%;
+    width: 112.5px;
+    height: 150px;
+    background: url(../images3/glass.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box5 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 15%;
+    top:9.8%;
+    font-size: 10px;
+}
+
+.i-s2-box6 {
+    position: absolute;
+    left: 60%;
+    top:8.5%;
+    width: 120px;
+    height:90px;
+    background: url(../images3/furniture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box7 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 65%;
+    top:11%;
+    font-size: 10px;
+}
+
+.i-s2-box8 {
+    position: absolute;
+    left: 10%;
+    top:12%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/interior.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box9 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:16%;
+    font-size: 10px;
+}
+
+.i-s2-box10 {
+    position: absolute;
+    left: 60%;
+    top:17%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images3/iornHandrail.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box11 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 50%;
+    top:21%;
+    font-size: 10px;
+}
+
+.i-s2-box12 {
+    position: absolute;
+    left: 25%;
+    top:22%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/cat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box13 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 20%;
+    top:26%;
+    font-size: 10px;
+}
+
+.i-s2-box14 {
+    position: absolute;
+    left: 12%;
+    top:27.3%;
+    width: 120px;
+    height:180px;
+    background: url(../images3/niche.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box15 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 9%;
+    top:32%;
+    font-size: 10px;
+}
+
+.i-s2-box16 {
+    position: absolute;
+    left: 60%;
+    top:30%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images3/light.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box17 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 58%;
+    top:34%;
+    font-size: 10px;
+}
+
+.i-s2-box18 {
+    position: absolute;
+    left: 15%;
+    top:34.8%;
+    width: 250px;
+    height:160px;
+    background: url(../images3/outside.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box19 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 35%;
+    top:39%;
+    font-size: 10px;
+}
+
+.i-s2-box20 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 60%;
+    top:40%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i-s2-box21 {
+    position: absolute;
+    left: 35%;
+    top:41%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/interior2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box22 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:45%;
+    font-size: 10px;
+}
+
+.i-s2-box23 {
+    position: absolute;
+    left: 15%;
+    top:46%;
+    width: 150px;
+    height:200px;
+    background: url(../images3/space.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box24 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:51.3%;
+    font-size: 10px;
+}
+
+.i-s2-box25 {
+    position: absolute;
+    left: 35%;
+    top:52.5%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/shelf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box26 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:56.5%;
+    font-size: 10px;
+}
+
+.i-s2-box27 {
+    position: absolute;
+    left: 20%;
+    top:57.5%;
+    width: 112.5px;
+    height:150px;
+    background: url(../images3/switch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box28 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:61.5%;
+    font-size: 10px;
+}
+
+.i-s2-box29 {
+    position: absolute;
+    left: 35%;
+    top:63%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/window.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box30 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:67%;
+    font-size: 10px;
+}
+
+/* .i-s2-box31 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 10%;
+    top:68%;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.i-s2-box32 {
+    position: absolute;
+    left: 15%;
+    top:69%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/bowl.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box33 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 25%;
+    top:73.2%;
+    font-size: 10px;
+}
+
+.i-s2-box34 {
+    position: absolute;
+    left: 50%;
+    top:74.5%;
+    width: 150px;
+    height:200px;
+    background: url(../images3/furniture2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box35 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 35%;
+    top:79.7%;
+    font-size: 10px;
+}
+
+.i-s2-box36 {
+    position: absolute;
+    left: 20%;
+    top:81.5%;
+    width: 200px;
+    height:150px;
+    background: url(../images3/kitchen2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box37 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 30%;
+    top:85.5%;
+    font-size: 10px;
+}
+
+.i-s2-box38 {
+    position: absolute;
+    left: 10%;
+    top:87%;
+    width: 150px;
+    height:200px;
+    background: url(../images3/toile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box39 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 5%;
+    top:92.3%;
+    font-size: 10px;
+}
+
+.i-s2-box40 {
+    position: absolute;
+    left: 60%;
+    top:90%;
+    width:112.5px;
+    height:150px;
+    background: url(../images3/staire.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box41 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 60%;
+    top:94%;
+    font-size: 10px;
+}
+
+.i-s2-box42 {
+    position: absolute;
+    left: 25%;
+    top:95%;
+    width:200px;
+    height:150px;
+    background: url(../images3/dining.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-s2-box43 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    left: 35%;
+    top:99%;
+    font-size: 10px;
+}
